@@ -8,6 +8,7 @@ html{scroll-padding-top:70px;scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--tx);font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;font-size:1.02rem}
 h1,h2,h3{font-family:"Playfair Display",Georgia,"Times New Roman",serif;font-weight:700;line-height:1.15;letter-spacing:-.01em}
 .spectrum{height:6px;background:linear-gradient(90deg,var(--c1) 0 20%,var(--c2) 20% 40%,var(--c3) 40% 60%,var(--c4) 60% 80%,var(--c5) 80%)}
+.top-spectrum{background:var(--navy)}
 nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navy);display:flex;gap:2px;overflow-x:auto;padding:0 16px}
 nav a{white-space:nowrap;text-decoration:none;color:#dfe3ee;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:16px 14px;border-bottom:3px solid transparent}
 nav a:hover{color:#fff;border-color:var(--c2)}
