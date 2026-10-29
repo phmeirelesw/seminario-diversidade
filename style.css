@@ -35,6 +35,13 @@ p{margin:0 0 16px}
 .cap2{font-size:.78rem;color:var(--mut);margin-top:8px;font-style:italic}
 .note{background:var(--card);border-left:4px solid var(--acc);padding:16px 20px;margin:22px 0;font-size:.95rem}
 .note b{display:block;font-family:Georgia,serif;margin-bottom:4px}
+#importancia .biblical-base{background:var(--card);border-left:4px solid var(--acc);padding:18px 20px;margin:24px 0}
+#importancia .biblical-base h3,#importancia .biblical-point h3{margin:0 0 10px}
+#importancia .biblical-verse{margin:10px 0;padding:12px 16px;border-left:3px solid var(--acc);background:var(--bg);font-family:Georgia,serif;font-size:1.04rem;font-style:italic}
+#importancia .biblical-base p:last-child,#importancia .biblical-point p:last-child{margin-bottom:0}
+#importancia .importance-heading{margin:28px 0 14px}
+#importancia .biblical-point{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--acc);padding:18px 20px;margin:16px 0}
+#importancia .verse-reference{font-weight:700;color:var(--acc);margin:0}
 dl{margin:20px 0 0}dt{font-weight:700;margin-top:12px}dd{margin:2px 0 0;color:var(--mut);font-size:.95rem}
 .video{margin-top:56px;border:1px solid var(--line);background:var(--navy);color:#fff}
 .vh{padding:14px 20px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--c2);font-weight:600;border-bottom:1px solid #fff2}
