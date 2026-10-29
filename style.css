@@ -41,10 +41,6 @@ p{margin:0 0 16px}
 #importancia .biblical-base p:last-child,#importancia .biblical-point p:last-child{margin-bottom:0}
 #importancia .importance-heading{margin:28px 0 14px}
 #importancia .row{display:block}
-#importancia .importance-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.78fr);gap:24px;align-items:start}
-#importancia .importance-art{grid-column:2;grid-row:1;position:sticky;top:88px;width:100%;aspect-ratio:4/3;margin:0}
-#importancia .importance-art img{object-position:right center}
-#importancia .importance-points{grid-column:1;grid-row:1}
 #importancia .biblical-point{display:flow-root;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--acc);padding:18px 20px;margin:16px 0}
 #importancia .verse-reference{font-weight:700;color:var(--acc);margin:0}
 dl{margin:20px 0 0}dt{font-weight:700;margin-top:12px}dd{margin:2px 0 0;color:var(--mut);font-size:.95rem}
@@ -97,4 +93,3 @@ footer{text-align:center;padding:36px 24px;color:var(--mut);font-size:.85rem}
 .refs ol{padding-left:20px;margin:0;color:var(--mut);font-size:.9rem;line-height:1.7}
 .rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
 @media print{nav,#prog{display:none}.rv{opacity:1;transform:none}}
-@media(max-width:560px){#importancia .importance-layout{grid-template-columns:minmax(0,1fr);gap:0}#importancia .importance-art{grid-column:1;grid-row:1;position:relative;top:auto;width:100%;max-width:540px;aspect-ratio:16/9;margin:0 auto 8px}#importancia .importance-points{grid-column:1;grid-row:2}}
